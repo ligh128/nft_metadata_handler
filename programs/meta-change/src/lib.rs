@@ -9,7 +9,7 @@ pub mod meta_change {
     use super::*;
 
     pub fn update_authority(ctx: Context<UpdateAuthority>) -> Result<()> {
-        instructions::update_authority::handler(ctx)
+        instructions::update_authority::controller(ctx)
     }
 }
 
