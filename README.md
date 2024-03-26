@@ -6,4 +6,4 @@
 yarn
 ```
 Replace the programID.
-Only when wallet public key is same with UpdateAuthority, you can update the metadta.
+Only when the wallet public key is the same as UpdateAuthority, you can update the metadata.
